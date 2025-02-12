@@ -1,0 +1,36 @@
+{
+  "originUrl": "https://fortstreet-p.schools.nsw.gov.au/",
+  "totalUrls": 5,
+  "urls": [
+    {
+      "url": "https://fortstreet-p.schools.nsw.gov.au/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://fortstreet-p.schools.nsw.gov.au/about-our-school.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://fortstreet-p.schools.nsw.gov.au/contact-us.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://fortstreet-p.schools.nsw.gov.au/news/2023/5.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://fortstreet-p.schools.nsw.gov.au/news/2024/2/free-internet-for-eligible-families-.html",
+      "source": "NAV"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {}
+  }
+}
