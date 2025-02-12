@@ -1,0 +1,60 @@
+
+.aidefaultcontent-bbpzwi-box-id-494745251-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f5f5f5; /* Light grey background */
+  padding: 20px 20px 0 20px; /* Adding padding for spacing */
+}
+
+.aidefaultcontent-bbpzwi-box-id-494745251-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Hiding the breadcrumb heading */
+.aidefaultcontent-bbpzwi-box-id-494745251-wrapper #breadcrumb-navigation {
+  display: none; 
+}
+
+/* Hiding the button container */
+.aidefaultcontent-bbpzwi-box-id-494745251-wrapper .button-container {
+  display: none; 
+}
+
+/* List styling for breadcrumb */
+.aidefaultcontent-bbpzwi-box-id-494745251-wrapper ul {
+  list-style: none; /* Removing bullet points */
+  padding: 0;
+  margin: 0 0 10px 0; /* Margin for spacing */
+  display: flex;
+  flex-direction: row; /* Displaying list items inline */
+  align-items: center;
+  gap: 5px; /* Adjusting spacing between items */
+  padding-top: 25px; /* Decreasing vertical padding above breadcrumb */
+}
+
+/* Styling individual list items */
+.aidefaultcontent-bbpzwi-box-id-494745251-wrapper ul li {
+  display: inline;
+  font-size: 14px;
+}
+
+/* Adding a forward slash after each breadcrumb item except the last */
+.aidefaultcontent-bbpzwi-box-id-494745251-wrapper ul li::after {
+  content: "/";
+  margin-left: 5px; /* Fine-tuning spacing for forward slash */
+}
+
+.aidefaultcontent-bbpzwi-box-id-494745251-wrapper ul li:last-child::after {
+  content: "";
+}
+
+/* Styling the title */
+.aidefaultcontent-bbpzwi-box-id-494745251-wrapper #about-our-school {
+  font-size: 36px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  margin: 0;
+  padding-top: 10px; /* Reducing padding to bring title closer to breadcrumb */
+}
