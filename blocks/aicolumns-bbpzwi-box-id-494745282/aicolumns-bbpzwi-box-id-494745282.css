@@ -21,7 +21,7 @@
   height: auto;
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aicolumns-bbpzwi-box-id-494745282-wrapper > .aicolumns-bbpzwi-box-id-494745282 > div {
     flex-direction: row; /* Ensure items are side by side on larger screens */
     align-items: flex-start; /* Align items to the top */
