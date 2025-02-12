@@ -56,7 +56,7 @@
   margin: 0 10px; /* Add horizontal margin to space out list items */
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aiheader-u4i0gy-1102402085 {
     justify-content: space-between; /* Ensure even spacing of navigation links */
   }
