@@ -1,0 +1,61 @@
+
+.aidefaultcontent-se5tjo-box-id-494745251-wrapper {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 {
+  display: flex;
+  flex-direction: column;
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2px 0; /* Further adjusted margin for better spacing */
+  font-size: 14px;
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 ul li {
+  margin-right: 5px;
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 ul li::after {
+  content: '/';
+  margin-left: 5px;
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 ul li:last-child::after {
+  content: '';
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 #breadcrumb-navigation {
+  display: none; /* Hide the "Breadcrumb navigation" heading */
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 .button-container {
+  display: none; /* Hide the back button container */
+}
+
+.aidefaultcontent-se5tjo-box-id-494745251 #contact-us {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 2px 0 0 0; /* Further reduced margin for better alignment */
+  padding-top: 0; /* Remove padding-top */
+}
