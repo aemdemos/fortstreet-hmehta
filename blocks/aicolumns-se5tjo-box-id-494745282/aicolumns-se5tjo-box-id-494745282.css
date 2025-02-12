@@ -1,0 +1,59 @@
+
+.aicolumns-se5tjo-box-id-494745282-wrapper > .aicolumns-se5tjo-box-id-494745282 > div {
+  display: flex;
+  flex-direction: row; /* Ensure elements are side by side */
+  gap: 24px; /* Add space between the two sections */
+}
+
+.aicolumns-se5tjo-box-id-494745282-wrapper > .aicolumns-se5tjo-box-id-494745282 > div > div:first-child {
+  flex: 0 0 35%; /* Adjust width to match the original */
+  background-color: #002366; /* Dark blue background */
+  color: white; /* White text color */
+  padding: 20px; /* Padding for better spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+}
+
+.aicolumns-se5tjo-box-id-494745282-wrapper > .aicolumns-se5tjo-box-id-494745282 > div > div:nth-child(2) {
+  flex: 1;
+  background-color: transparent; /* Remove background color */
+  padding: 0; /* Remove padding */
+  display: flex;
+  flex-direction: column; /* Ensure elements inside are column */
+  justify-content: flex-start; /* Align content to the top */
+  align-items: flex-start; /* Align content to the left */
+}
+
+/* Ensure text and elements are properly spaced */
+.aicolumns-se5tjo-box-id-494745282-wrapper h4,
+.aicolumns-se5tjo-box-id-494745282-wrapper p,
+.aicolumns-se5tjo-box-id-494745282-wrapper ul {
+  margin: 0 0 5px 0; /* Tighten margins for spacing */
+}
+
+/* Style the button */
+.aicolumns-se5tjo-box-id-494745282-wrapper .button-container {
+  margin-top: auto; /* Align button to the bottom */
+}
+
+.aicolumns-se5tjo-box-id-494745282-wrapper .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust button color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.aicolumns-se5tjo-box-id-494745282-wrapper .button:hover {
+  background-color: #0056b3; /* Adjust hover color */
+}
+
+/* Specific styles for the map container to ensure it displays a map */
+.aicolumns-se5tjo-box-id-494745282-wrapper .map-container {
+  width: 100%;
+  height: 100%;
+  background: url('path_to_map_image') no-repeat center center; /* Placeholder for the actual map */
+  background-size: cover;
+}
