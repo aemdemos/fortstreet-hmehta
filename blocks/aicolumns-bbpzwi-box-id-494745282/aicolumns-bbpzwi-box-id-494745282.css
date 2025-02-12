@@ -1,0 +1,35 @@
+
+.aicolumns-bbpzwi-box-id-494745282-wrapper > .aicolumns-bbpzwi-box-id-494745282 > div {
+  display: flex;
+  flex-direction: row; /* Ensure elements are side by side */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Add gap between navigation and content area */
+}
+
+.aicolumns-bbpzwi-box-id-494745282-wrapper > .aicolumns-bbpzwi-box-id-494745282 > div > div:first-child {
+  flex: 0 0 15%; /* Adjust navigation menu to take up 15% of the width */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.aicolumns-bbpzwi-box-id-494745282-wrapper > .aicolumns-bbpzwi-box-id-494745282 > div > div:last-child {
+  flex: 1; /* Content area takes up the remaining width */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.aicolumns-bbpzwi-box-id-494745282-wrapper > .aicolumns-bbpzwi-box-id-494745282 img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 900px) {
+  .aicolumns-bbpzwi-box-id-494745282-wrapper > .aicolumns-bbpzwi-box-id-494745282 > div {
+    flex-direction: row; /* Ensure items are side by side on larger screens */
+    align-items: flex-start; /* Align items to the top */
+    gap: 24px;
+  }
+
+  .aicolumns-bbpzwi-box-id-494745282-wrapper > .aicolumns-bbpzwi-box-id-494745282 > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
