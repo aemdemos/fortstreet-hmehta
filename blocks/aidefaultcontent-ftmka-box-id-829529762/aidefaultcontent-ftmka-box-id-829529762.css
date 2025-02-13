@@ -1,0 +1,37 @@
+
+.aidefaultcontent-ftmka-box-id-829529762-wrapper {
+  display: flex;
+  align-items: center; /* Centers the content vertically */
+  justify-content: start; /* Aligns the content to the start (left) */
+  height: auto; /* Ensures the wrapper takes the full height of its content */
+}
+
+.aidefaultcontent-ftmka-box-id-829529762 {
+  display: flex;
+  align-items: center; /* Centers the content vertically */
+  justify-content: start; /* Aligns the content to the start (left) */
+  width: 100%; /* Makes the block take the full width of the wrapper */
+}
+
+.aidefaultcontent-ftmka-box-id-829529762 > div {
+  display: flex;
+  flex-direction: row; /* Ensures the content is laid out side by side in a row */
+  align-items: center; /* Centers the content vertically */
+  justify-content: start; /* Aligns the content to the start (left) */
+  width: 100%; /* Ensures the inner div also takes full width */
+}
+
+.aidefaultcontent-ftmka-box-id-829529762 > div > div {
+  display: flex;
+  flex-direction: row; /* Ensures the content is laid out side by side in a row */
+  align-items: center; /* Centers the content vertically */
+  justify-content: start; /* Aligns the content to the start (left) */
+}
+
+.aidefaultcontent-ftmka-box-id-829529762 h3 {
+  font-weight: bold;
+  margin: 0; /* Removes any default margin */
+  padding: 0; /* Removes any default padding */
+  display: flex;
+  align-items: center; /* Centers the text vertically within the h3 element */
+}
