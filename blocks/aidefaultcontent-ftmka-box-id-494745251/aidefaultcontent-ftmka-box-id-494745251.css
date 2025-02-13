@@ -1,0 +1,58 @@
+
+.aidefaultcontent-ftmka-box-id-494745251-wrapper {
+  width: 100%;
+  background-color: #f1f1f1; /* Adjust the color to match the provided image */
+  padding: 10px 20px; /* Adjust padding to position breadcrumb closer to the top */
+}
+
+.aidefaultcontent-ftmka-box-id-494745251 > div {
+  display: flex;
+  flex-direction: column; /* Ensure elements are arranged vertically */
+  gap: 5px; /* Decrease vertical gap between breadcrumb and header */
+}
+
+.aidefaultcontent-ftmka-box-id-494745251 > div > div {
+  display: flex;
+  flex-direction: column; /* Ensure elements are arranged vertically */
+}
+
+/* Remove the Back button */
+.aidefaultcontent-ftmka-box-id-494745251 .button-container {
+  display: none; /* Hide the Back button */
+}
+
+/* Breadcrumb Navigation Styling */
+.aidefaultcontent-ftmka-box-id-494745251 ul {
+  display: flex;
+  flex-direction: row; /* Ensure breadcrumb items are aligned side-by-side */
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.aidefaultcontent-ftmka-box-id-494745251 ul li {
+  margin-right: 5px; /* Space between breadcrumb items */
+}
+
+.aidefaultcontent-ftmka-box-id-494745251 ul li::after {
+  content: "/";
+  margin-left: 5px; /* Space between breadcrumb items */
+}
+
+.aidefaultcontent-ftmka-box-id-494745251 ul li:last-child::after {
+  content: ""; /* Remove slash after the last item */
+}
+
+/* Header Text Styling */
+.aidefaultcontent-ftmka-box-id-494745251 h1 {
+  font-size: 2em; /* Adjust font size as needed */
+  font-weight: bold;
+  margin: 0; /* Remove any additional margin */
+  margin-left: 0; /* Align to the left */
+  margin-top: 5px; /* Decrease margin to create tighter space between breadcrumb and header */
+}
+
+/* Hide the Breadcrumb Navigation Header */
+.aidefaultcontent-ftmka-box-id-494745251 #breadcrumb-navigation {
+  display: none; /* Hide the breadcrumb navigation header */
+}
