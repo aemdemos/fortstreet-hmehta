@@ -19,6 +19,9 @@
       "id": 2,
       "path": "/news/2024/2/free-internet-for-eligible-families",
       "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
             {
               "id": "box-id--890884670",
               "color": "rgba(0, 255, 0, 1)",
