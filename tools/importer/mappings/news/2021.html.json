@@ -1,0 +1,87 @@
+{
+  "url": "https://fortstreet-p.schools.nsw.gov.au/news/2021.html",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]\n  /html[1]/body[1]/div[3]\n  /html[1]/body[1]/header[1]\n  - /html[1]/body[1]/header[1]/div[1]/div[1]/a[1]/img[1]\n  - /html[1]/body[1]/header[1]/div[1]/div[1]/div[1]\n  /html[1]/body[1]/div[4]\n  - /html[1]/body[1]/div[4]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[1]\n  - /html[1]/body[1]/div[4]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[2]\n  - /html[1]/body[1]/div[4]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[3]\n  - /html[1]/body[1]/div[4]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[4]\n  - /html[1]/body[1]/div[4]/div[1]/nav[1]/div[1]/div[1]/ul[1]/li[5]\n  /html[1]/body[1]/main[1]\n  - /html[1]/body[1]/main[1]/div[1]\n  - /html[1]/body[1]/main[1]/div[2]\n  /html[1]/body[1]/div[5]\n  - /html[1]/body[1]/div[5]/div[1]/h2[1]\n  - /html[1]/body[1]/div[5]/div[1]/div[1]\n  /html[1]/body[1]/div[6]\n  /html[1]/body[1]/aside[1]\n  - /html[1]/body[1]/aside[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/aside[1]/div[1]",
+    "hash": 1211651670
+  },
+  "pageHeight": 2467,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/news/2021",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-829529824",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 957,
+              "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]/div[1]/div[3]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"newsFullColumn\")/div[@class=\"sws-container-inner sws-news-newsContent\"]/div[@id=\"newsLandingNewsAnalytics\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"newsFullColumn\")/div[@class=\"sws-container-inner sws-news-newsContent\"]/div[@id=\"newsLandingNewsAnalytics\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"newsFullColumn\")/div[@class=\"sws-container-inner sws-news-newsContent\"]/div[@id=\"newsLandingNewsAnalytics\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[4]",
+                  "xpathWithDetails": "id(\"newsFullColumn\")/div[@class=\"sws-container-inner sws-news-newsContent\"]/div[@id=\"newsLandingNewsAnalytics\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[5]",
+                  "xpathWithDetails": "id(\"newsFullColumn\")/div[@class=\"sws-container-inner sws-news-newsContent\"]/div[@id=\"newsLandingNewsAnalytics\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[6]",
+                  "xpathWithDetails": "id(\"newsFullColumn\")/div[@class=\"sws-container-inner sws-news-newsContent\"]/div[@id=\"newsLandingNewsAnalytics\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 2
+              },
+              "x": 40,
+              "y": 738,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-qszm5a-829529824"
+            },
+            {
+              "id": "box-id-829529855",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 100,
+              "xpath": "/html[1]/body[1]/main[1]/div[2]/div[2]/div[1]/div[4]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 1696,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-qszm5a-829529855"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
